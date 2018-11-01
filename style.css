@@ -2,15 +2,12 @@
   margin: 0;
   padding: 0;
 }
-body {
+.header {
   background-image: url('./pictures/header.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.header {
-  height: 100vh;
 }
 .about {
   background-color: blue;
