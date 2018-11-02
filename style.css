@@ -9,6 +9,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header p {
+  margin-top: 70vh;
+}
 .about {
   background-color: blue;
   height: 100vh;
