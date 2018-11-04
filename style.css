@@ -9,8 +9,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header p {
-  margin-top: 70vh;
+.logo {
+  padding-top: 65vh;
 }
 .about {
   background-color: blue;
