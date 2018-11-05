@@ -3,24 +3,50 @@
 	padding:0;
 }
 
-
-
+@largeScreen: (min-width:768px);
+.headerContainer{
+	position:relative;
+}
 .header{
+	height: 100vh;
+	position: absolute;
+	z-index: 10;
+}
+
+.carousel{
+	position:absolute;
+}
+.one{
+	background-image: url('./pictures/header3.jpg');
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.two{
 	background-image: url('./pictures/header.jpg');
 	height: 100vh;
 	background-position: center;
-	background-repeat:  no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
-	
+}
 
+.three{
+	background-image: url('./pictures/header2.jpg');
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .logo{
-	padding-top: 65vh;
-	i{
-		text-align: center;
+	padding-top: 80vh;
+	@media @largeScreen{
+		padding-top: 75vh;
 	}
-}
+
+	}
 
 
 
