@@ -14,7 +14,7 @@ var newList =[
 $(document).ready(function(){
 	for(i in newList){
 		$('#test').append(
-			'<img class="col-4 pb-4" src="' + newList[i] + '">'
+			'<div class = "col-sm-4"> <img class="square" src="' + newList[i] + '"></div>'
 			);
 
 	}
