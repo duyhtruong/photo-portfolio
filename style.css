@@ -55,20 +55,20 @@
   display: block;
 }
 .photos {
-  background-color: #E7D8C9;
-  height: 100vh;
+  background-color: #161925;
+  overflow: auto;
+  display: block;
 }
 .footer {
   background-color: #ECF8F8;
   height: 100vh;
 }
-#test img {
-  width: 300px;
-  height: 300px;
+.square:before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
-.square {
-  width: 100%;
-  padding-bottom: 33%;
-  background-size: cover;
-  background-position: center;
+.roundImage {
+  border-radius: 15em;
+  width: 350px;
 }
