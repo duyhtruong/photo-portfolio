@@ -12,16 +12,19 @@ var newList =[
 
 
 $(document).ready(function(){
-	for(i in newList){
-		$('#test').append(
-			'<div class = "col-sm-3 square  mx-1 my-1" style="background-image: url('+ newList[i] +'); background-size: cover; background-position: center; "></div>'
-			);
 
-	}
-
-
-
+	filterGrid('all');
 
 
 });
 
+	function filterGrid(group){
+		$('#test').children('div').each(function(){
+			if($(this).hasClass(group) == true) {
+				$(this).addClass('show');
+			}
+			else{
+				$(this).removeClass('show');
+			}
+		})
+	};
